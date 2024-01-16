@@ -6,8 +6,11 @@ attach(h)
 library(readxl)
 
  Veriyi filtrelemek gerekli burada
+ 
 unique(h_filtered$arrival_date_month)
+
 unique(h_filtered$meal)
+
 h_filtered <- h %>%
   filter(arrival_date_month %in% c('April', 'May', 'June'),
          arrival_date_year == "2017",
