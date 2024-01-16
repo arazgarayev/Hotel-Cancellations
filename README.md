@@ -1,5 +1,6 @@
 # Hotel-Cancellations
 Gerekli kütüphaneyi yükluyoruz
+
 attach(h)
 
 library(readxl)
