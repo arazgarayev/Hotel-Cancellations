@@ -1,5 +1,7 @@
 # Hotel-Cancellations
 Gerekli kütüphaneyi yükluyoruz
+attach(h)
+
 library(readxl)
 
  Veriyi filtrelemek gerekli burada
